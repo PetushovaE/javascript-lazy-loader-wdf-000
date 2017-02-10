@@ -2,5 +2,8 @@
 
 $(document).ready(function() {
   // add click listener here
-  // it should call on fetchJSON()
+  $("#load-cars").on("click", function(){
+  	// it should call on fetchJSON()
+  	fetchJSON();
+  });
 });
